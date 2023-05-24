@@ -6,27 +6,6 @@ body {
     background-color: #292235;
 }
 
-.lower {
-    display: flex;
-    margin: 5px;
-    align-items: center;
-    margin-left: 100px;
-    cursor: pointer;
-    max-width: 30%;
-    color: lightgray;
-}
-
-.lower:hover {
-    color: cadetblue;
-}
-
-.lower img {
-    width: 40px;
-    height: 50px;
-    border-radius: 5%;
-    margin: 5px 15px;
-}
-
 .upper {
     display: flex;
     margin: 40px 60px;
@@ -52,4 +31,25 @@ body {
 
 .upper h5 {
     margin: 2px;
+}
+
+.lower {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    margin-left: 100px;
+    cursor: pointer;
+    max-width: 30%;
+    color: lightgray;
+}
+
+.lower:hover {
+    color: cadetblue;
+}
+
+.lower img {
+    width: 40px;
+    height: 50px;
+    border-radius: 5%;
+    margin: 5px 15px;
 }
